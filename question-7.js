@@ -11,3 +11,17 @@ const secondProductList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+let newProductList = [];
+for (let i = 0; i < firstProductList.length; i++) {
+  newProductList.push(firstProductList[i]);
+}
+for (let i = 0; i < secondProductList.length; i++) {
+  newProductList.push(secondProductList[i]);
+}
+console.log(newProductList);
+
+/* loop+push สร้าง array เปล่า ให้มันเข้าไป */
+/* - ให้เขียนโค้ดในการรวม Value ของ Array `firstProductList` เข้ากับ `secondProductList`
+- จากนั้นให้นำผลลัพธ์ใส่ไว้ใน Variable ชื่อว่า `newProductList`
+- แล้วให้ Log เพื่อดู Value ของ `newProductList`
+- ผลลัพธ์ที่แสดงบนหน้าจอ Console จะได้ */
